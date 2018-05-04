@@ -11,17 +11,39 @@ git clone https://github.com/aniketghodake10/proprietary_vendor_xiaomi_vince.git
 
 
 export USE_CCACHE=1
+
+
 prebuilts/misc/linux-x86/ccache/ccache -M 50G
+
+
 export CCACHE_COMPRESS=1
 
 
 cd ~
+
+
 wget https://docs.google.com/uc?id=0B3X9GlR6EmbnWksyTEtCM0VfaFE&export=download
+
+
 mv uc\?id\=0B3X9GlR6EmbnWksyTEtCM0VfaFE gdrive
+
+
 chmod +x gdrive
+
+
 sudo install gdrive /usr/local/bin/gdrive
+
+
 gdrive list
+
+
 cd rom_name
+
+
 cd out/target/product/vince
+
+
 ls
+
+
 gdrive upload zip_name
