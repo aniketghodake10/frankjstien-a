@@ -1,6 +1,6 @@
 # frankstien-a
 
-git clone https://github.com/mdeejay/device_xiaomi_vince.git -b 8.1.x device/xiaomi/vince
+git clone https://github.com/aniketghodake10/device_xiaomi_vince.git -b liquid-8.1 device/xiaomi/vince
 
 git clone https://github.com/mdeejay/kernel_xiaomi_vince.git -b android-8.1-clang kernel/xiaomi/vince
 
