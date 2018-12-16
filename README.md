@@ -1,22 +1,9 @@
 # frankstien-a
 
-git clone https://github.com/aniketghodake10/device_xiaomi_vince.git -b aim-8.1 device/xiaomi/vince
-
-git clone https://github.com/aniketghodake10/device_xiaomi_vince.git -b 8.1.x device/xiaomi/vince
-
-git clone https://github.com/mdeejay/kernel_xiaomi_vince.git -b android-8.1-clang kernel/xiaomi/vince
-
-git clone https://github.com/mdeejay/vendor_xiaomi_vince.git -b android-8.1 vendor/xiaomi
-
-
 
 export USE_CCACHE=1
+ccache -M 50G
 
-
-prebuilts/misc/linux-x86/ccache/ccache -M 50G
-
-
-export CCACHE_COMPRESS=1
 
 
 cd ~
@@ -43,12 +30,3 @@ cd rom_name
 cd out/target/product/vince
 
 
-ls
-
-
-gdrive upload zip_name
-
-
-
-
-git clone https://github.com/aniketghodake10/android_device_xiaomi_msm8953-vince.git -b dot-o device/xiaomi/msm8953-common
